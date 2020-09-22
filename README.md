@@ -1,7 +1,7 @@
 # Telco Customer Churn Reduction
 
 ## Project Description
-Telco wants you to find what drives customer churn at the company. Churn is the rate at which customers leave the company. It is important to determine and target where and why churn is happening so that the company can reduce churn. 
+Telco wants you to find what drives customer churn at the company. Churn is defined as the rate at which customers leave a company. We know that new customer acquisition can cost five times more than retaining an existing customer. We also know that increasing customer retention by 5% can increase profits from 25-95%. Therefore, it is important to determine and target what is causing the largest source of churn, so that the company can reduce it. 
 
 ## Objectives
 - Find the drivers for customer churn at Telco.
@@ -20,13 +20,12 @@ Telco wants you to find what drives customer churn at the company. Churn is the 
 - Your target audience for your notebook walkthrough is the Codeup Data Science team. This should guide your language and level of explanations in your walkthrough.
 
 ## Data Dictionary
-
-| Field Name |                 | Data Type |
-- customer_id                   alpha-numeric
-- gender                        text
-- is_senior_citizen             bool	
-- partner	                    text
-- dependents	                text
+### Field Name                 
+- customer_id                  
+- gender                        
+- is_senior_citizen             
+- partner	                   
+- dependents	                
 - phone_service	
 - internet_service	
 - contract_type	
@@ -39,19 +38,14 @@ Telco wants you to find what drives customer churn at the company. Churn is the 
 - has_churned	
 - has_phone	
 - has_internet	
-- has_phone_and_internet	
-- partner_dependents	
-- no_partners_no_dependents	
-- no_dependents_yes_partners	
-- dependents_no_partners	
-- yes_dependents_and_partners		
+- has_phone_and_internet		
 - start_date	
 - average_monthly_charges			
-- phone_type_desc	
-- internet_type_desc	
+- phone_type	
+- internet_type	
 
-## Project Planning / Instructions
-Data Science Pipeline:
+## Project Planning
+### Data Science Pipeline:
 - Planning
 - Acquisition
 - Preparation
@@ -60,5 +54,8 @@ Data Science Pipeline:
 - Delivery 
 
 ## Hypothesis
+- The largest source of churn is coming from month-to-month contracts because of increasing monthly charges. Specifically, the phone and internet bundle customers are churning the most. 
 
 ## Key Findings 
+- Internet customers are increasingly paying more over time
+- Remember that customer will not switch backwards to DSL
