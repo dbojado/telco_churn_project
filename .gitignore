@@ -2,3 +2,6 @@
 .ipynb_checkpoints/
  __pycache__/
  env.py 
+*.csv
+*.json
+*.xlsx
