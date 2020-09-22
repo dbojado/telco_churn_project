@@ -53,6 +53,14 @@ Telco wants you to find what drives customer churn at the company. Churn is defi
 - Modeling 
 - Delivery 
 
+## Deliverables 
+- Jupyter Notebook (presentation)
+- README.md
+- csv
+- acquire.py
+- prepare.py
+- model.py
+
 ## Hypothesis
 - The largest source of churn is coming from month-to-month contracts because of increasing monthly charges. Specifically, the phone and internet bundle customers are churning the most. 
 
