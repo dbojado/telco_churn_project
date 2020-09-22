@@ -1,7 +1,7 @@
-# Telco Churn Project
+# Telco Customer Churn Reduction
 
 ## Project Description
-Telco wants you to find what drives customer churn at the company. Churn is the rate at which customers leave the company. It is important to determine where and why churn is happening so that the company can reduce churn. 
+Telco wants you to find what drives customer churn at the company. Churn is the rate at which customers leave the company. It is important to determine and target where and why churn is happening so that the company can reduce churn. 
 
 ## Objectives
 - Find the drivers for customer churn at Telco.
@@ -20,8 +20,44 @@ Telco wants you to find what drives customer churn at the company. Churn is the 
 - Your target audience for your notebook walkthrough is the Codeup Data Science team. This should guide your language and level of explanations in your walkthrough.
 
 ## Data Dictionary
+customer_id	| test | test
+gender	
+is_senior_citizen	
+partner	dependents	
+phone_service	
+internet_service	
+contract_type	
+payment_type	
+monthly_charges	
+total_charges	
+churn	
+tenure	
+is_female	
+has_churned	
+has_phone	
+has_internet	
+has_phone_and_internet	
+partner_dependents	
+no_partners_no_dependents	
+no_dependents_yes_partners	
+dependents_no_partners	
+yes_dependents_and_partners		
+start_date	
+average_monthly_charges			
+phone_type_desc	
+internet_type_desc	
+
+
+
 
 ## Project Planning / Instructions
+Data Science Pipeline:
+- Planning
+- Acquisition
+- Preparation
+- Exploration
+- Modeling 
+- Delivery 
 
 ## Hypothesis
 
