@@ -5,8 +5,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.impute import SimpleImputer
 
-from acquire import get_telecom_data
+from acquire import get_telco_data
 
-def telcom_data_prep():
-    df = get_telecom_data()
+def telco_data_prep():
+    df = get_telco_data()
     return df
