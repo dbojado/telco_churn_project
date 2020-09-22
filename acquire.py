@@ -1,6 +1,6 @@
 import pandas as pd 
 import os
-from env
+from env import host, username, password
 
 def get_connection(db, username=env.username, host=env.host, password=env.password):
     return f'mysql+pymysql://{username}:{password}@{host}/{db}'
