@@ -21,12 +21,12 @@ Telco wants you to find what drives customer churn at the company. Churn is the 
 
 ## Data Dictionary
 
-| Field Name | Data Type | 
-| customer_id | alpha-numeric |
-| gender | text |	
-- is_senior_citizen	
-- partner	
-- dependents	
+| Field Name |                 | Data Type |
+- customer_id                   alpha-numeric
+- gender                        text
+- is_senior_citizen             bool	
+- partner	                    text
+- dependents	                text
 - phone_service	
 - internet_service	
 - contract_type	
