@@ -9,10 +9,10 @@ def get_connection(db, username=username, host=host, password=password):
 
 #Get csv data file
 def get_telco_data():
-    file = 'telco_data.csv'
+    file = 'telco_data_1.csv'
 
     if os.path.isfile(file):
-        return pd.read_csv('telco_data.csv')
+        return pd.read_csv('telco_data_1.csv')
     else:
         df = pd.read_sql("""
                         SELECT *
@@ -23,5 +23,5 @@ def get_telco_data():
                         get_connection('telco_churn')
                         )
         
-        df.to_csv('telco_data.csv', index=False)
+        df.to_csv('telco_data_1.csv', index=False)
         return df
