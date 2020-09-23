@@ -1,7 +1,7 @@
 #Library imports
 import pandas as pd 
 import os
-from env import host, username, password
+from env import host, username, password 
 
 #Connect to database
 def get_connection(db, username=username, host=host, password=password):
