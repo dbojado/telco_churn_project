@@ -22,24 +22,41 @@ Telco wants you to find what drives customer churn at the company. Churn is defi
 ## Data Dictionary
 ### Field Name                 
 <b>customer_id:</b>             An alpha-number number used to identify customer  
-             
-<b>gender:</b>                  Labels customer male or female                        
-<b>is_senior_citizen:</b>       Labels customer senior or not senior             
-<b>partner:</b>                 Labels customer with or without partner	                   
-<b>dependents:</b>              Labels customer with or wihtout dependents	                
+
+<b>gender:</b>                  Labels customer male or female      
+
+<b>is_senior_citizen:</b>       Labels customer senior or not senior     
+
+<b>partner:</b>                 Labels customer with or without partner	  
+
+<b>dependents:</b>              Labels customer with or wihtout dependents	  
+
 <b>contract_type:</b>           Month-to-month, 1-year, or 2-year contract	
+
 <b>payment_type:</b>            Electronic, Mailled Check, or Bank transfer payment	
+
 <b>monthly_charges:</b>         Amount of monthly charges	
+
 <b>total_charges:</b>           Amount of total charges	
+
 <b>churn:</b>                   Yes/No rate at which customers leave company	
+
 <b>tenure:</b>                  Number of months customer has been with company	
+
 <b>is_female:</b>               T/F whether female or not female	
+
 <b>has_churned:</b>             T/F whether churned or not churned	
+
 <b>has_phone:</b>               T/F whether has phone or does not have phone	
+
 <b>has_internet:</b>            T/F whether has internet or does not have internet	
-<b>has_phone_and_internet:</b>  T/F whether has phone and internet service or not
-<b>start_date:</b>              Date when individual become customer with company             
+
+<b>has_phone_and_internet:</b>  T/F whether has phone and internet service or not 
+
+<b>start_date:</b>              Date when individual become customer with company   
+
 <b>phone_type:</b>              No phone service, one-line, two or more lines	
+
 <b>internet_type:</b>           No internet service, DSL, or fiber optic	
 
 ## Project Planning
