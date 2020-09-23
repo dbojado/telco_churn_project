@@ -1,4 +1,4 @@
-#Library Imports
+#Library imports
 import pandas as pd 
 import os
 from env import host, username, password
