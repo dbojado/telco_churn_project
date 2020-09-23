@@ -13,7 +13,6 @@ def telco_data_prep():
     df = get_telco_data()
     df.total_charges = df.total_charges.str.strip()
     df.total_charges = df.total_charges.replace('', 0) 
-    df.total_charges = df.total_charges.total_charges.astype(float)
     df.churn.replace(['Yes', 'No'], [1,0], inplace = True)
     return df
 
