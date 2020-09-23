@@ -21,28 +21,25 @@ Telco wants you to find what drives customer churn at the company. Churn is defi
 
 ## Data Dictionary
 ### Field Name                 
-- customer_id                  
-- gender                        
-- is_senior_citizen             
-- partner	                   
-- dependents	                
-- phone_service	
-- internet_service	
-- contract_type	
-- payment_type	
-- monthly_charges	
-- total_charges	
-- churn	
-- tenure	
-- is_female	
-- has_churned	
-- has_phone	
-- has_internet	
-- has_phone_and_internet		
-- start_date	
-- average_monthly_charges			
-- phone_type	
-- internet_type	
+customer_id:            An alpha-number number used to identify customer               
+gender:                 Labels customer male or female                        
+is_senior_citizen:      Labels customer senior or not senior             
+partner:                Labels customer with or without partner	                   
+dependents:             Labels customer with or wihtout dependents	                
+contract_type:          Month-to-month, 1-year, or 2-year contract	
+payment_type:           Electronic, Mailled Check, or Bank transfer payment	
+monthly_charges:        Amount of monthly charges	
+total_charges:          Amount of total charges	
+churn:                  Yes/No rate at which customers leave company	
+tenure:                 Number of months customer has been with company	
+is_female:              T/F whether female or not female	
+has_churned:            T/F whether churned or not churned	
+has_phone:              T/F whether has phone or does not have phone	
+has_internet:           T/F whether has internet or does not have internet	
+has_phone_and_internet: T/F whether has phone and internet service or not
+start_date:             Date when individual become customer with company             			
+phone_type:             No phone service, one-line, two or more lines	
+internet_type:          No internet service, DSL, or fiber optic	
 
 ## Project Planning
 ### Data Science Pipeline:
