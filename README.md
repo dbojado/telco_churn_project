@@ -21,7 +21,7 @@ Telco wants you to find what drives customer churn at the company. Churn is defi
 
 ## Data Dictionary
 ### Field Name                 
-customer_id:            An alpha-number number used to identify customer               
+<b>customer_id:</b>            An alpha-number number used to identify customer               
 gender:                 Labels customer male or female                        
 is_senior_citizen:      Labels customer senior or not senior             
 partner:                Labels customer with or without partner	                   
