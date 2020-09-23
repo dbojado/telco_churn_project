@@ -20,7 +20,7 @@ Telco wants you to find what drives customer churn at the company. Churn is defi
 - Your target audience for your notebook walkthrough is the Codeup Data Science team. This should guide your language and level of explanations in your walkthrough.
 
 ## Data Dictionary
-### Field Name                 
+### Field Name:                 
 <b>customer_id:</b>             An alpha-number number used to identify customer  
 
 <b>gender:</b>                  Labels customer male or female      
@@ -71,7 +71,7 @@ Telco wants you to find what drives customer churn at the company. Churn is defi
 ## Deliverables 
 - Jupyter Notebook (presentation)
 - README.md
-- csv
+- .csv 
 - acquire.py
 - prepare.py
 - model.py
