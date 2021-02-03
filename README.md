@@ -1,4 +1,4 @@
-# Telco Customer Churn Reduction
+# Telco Customer Churn Reduction Project
 
 ## Project Description
 Telco wants you to find what drives customer churn at the company. Churn is defined as the rate at which customers leave a company. We know that new customer acquisition can cost five times more than retaining an existing customer. We also know that increasing customer retention by 5% can increase profits from 25-95%. Therefore, it is important to determine and target what is causing the largest source of churn, so that the company can reduce it. 
